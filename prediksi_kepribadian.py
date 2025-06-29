@@ -58,7 +58,7 @@ with st.form("form_prediksi"):
     friends = st.slider("Berapa banyak teman dekat yang kamu miliki?", 0, 20, 5)
     post = st.slider("Seberapa sering kamu posting di media sosial?", 0, 10, 5)
 
-    submit = st.form_submit_button("🔮 Prediksi Kepribadian")
+    submit = st.form_submit_button("Prediksi Kepribadian")
 
 if submit:
     input_df = pd.DataFrame([[
